@@ -3,5 +3,4 @@ install:
   - pip install -r requirements-dev.txt
   - pip install -r requirements.txt
 script: 
-  - chmod u+x Azenqos/test.sh
-  - bash Azenqos/test.sh
+  - make clean && make -j`nproc`
