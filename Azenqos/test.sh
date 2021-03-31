@@ -1,1 +1,1 @@
-make clean && make -j`nproc`
+make -j`nproc`
