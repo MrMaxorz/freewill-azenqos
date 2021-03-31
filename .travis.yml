@@ -3,4 +3,5 @@ language:
 install:
   - pip install -r requirements-dev.txt
   - pip install -r requirements.txt
-script: Azenqos/pytest
+  - pip install .
+script: pytest
