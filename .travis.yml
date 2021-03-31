@@ -5,5 +5,5 @@ install:
   - pip install -r requirements-dev.txt
   - pip install -r requirements.txt
 script: 
-  - chmod u+x Azenqos/test.sh staging
+  - chmod u+x Azenqos/test.sh
   - bash Azenqos/test.sh
